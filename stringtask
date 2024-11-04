@@ -1,0 +1,33 @@
+a="let, it be"
+print(a)
+print(type(a))
+print(len(a))
+print(a[5])
+print("it" in a)
+print("as" in a)
+print("was" not in a)
+print("be" not in a)
+for i in a:
+    print(i)
+print(a[4:8]) 
+print(a[:7])
+print(a[4:])
+print(a[-1])
+print(a[-6:-3])
+print(a[:-5])
+print(a[-7:])
+print(a.upper())
+print(a.lower())
+c="     seetha"
+print(c)
+print(c.strip())
+print(a.replace("be","not"))
+print(a.split(","))
+print(a.count("e"))
+print(a+c)
+y=10
+z=f"my name is seetha iam {y}"
+print(z)
+c="good morning \n have a nice day"
+print(c)
+print(type(c))

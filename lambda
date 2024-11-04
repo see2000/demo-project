@@ -1,0 +1,19 @@
+x=lambda a,b:a+b
+print(x(10,20))
+y=lambda x,z,y:x*z*y
+print(y(10,20,30))
+y=["orange","apple","mango","kiwi"]
+x=list(map(lambda z:z.upper(),y))
+print(x)
+z=[10,20,30,40,50]
+x=list(filter(lambda y:y>30,z))
+print(x)
+a=[2,4,6,8]
+b=list(map(lambda y:y**2,a))
+print(b)
+x=[1,2,3,4,5,6,7,8,9,10]
+b=list(filter(lambda y:y%2==0,x))
+print(b)
+y=[1,2,3,4,5,6,7,8,9,10]
+z=list(filter(lambda a:a%2!=0,y))
+print(z)
